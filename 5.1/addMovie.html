@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/addMovie.css">
+    <title>5.1</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/logoClean.png" alt="flit logo" width="70">
+        <nav>
+            <ul class="navOptions">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./addMovie.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="addMovies">
+        <form action="javascript: AddData();">
+            <div class="formItem">
+                <label for="title">Título</label>
+                <input type="text" id="title">
+            </div>
+            <div class="formItem">
+                <label for="genre">Gênero</label>
+                <input type="text" id="genre">
+            </div>
+            <div class="formItem">
+                <label for="grade">Nota</label>
+                <input type="text" id="average">
+            </div>
+            <div class="formItem">
+                <label for="synopsis">Sinopse</label>
+                <input type="text" id="overview">
+            </div>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </section>
+    <script src="./addData.js"></script>
+</body>
+
+</html>
